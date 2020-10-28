@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0B3EBDD4D2A01B85B3840EAD /* Pods_uniquePodRPT_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uniquePodRPT_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB0F4F148BDED5F18D45CC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0BB0F4F148BDED5F18D45CC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1C354A03ED6D13C7770C6EE4 /* Pods-uniquePodRPT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniquePodRPT_Example.debug.xcconfig"; path = "Target Support Files/Pods-uniquePodRPT_Example/Pods-uniquePodRPT_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5280522737BDFA438B8E9A1B /* Pods_uniquePodRPT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uniquePodRPT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* uniquePodRPT_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uniquePodRPT_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,8 @@
 		6247AC65002ADA7997182AC2 /* Pods-uniquePodRPT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniquePodRPT_Example.release.xcconfig"; path = "Target Support Files/Pods-uniquePodRPT_Example/Pods-uniquePodRPT_Example.release.xcconfig"; sourceTree = "<group>"; };
 		828CF741A608BF4F3FF9AD7A /* Pods-uniquePodRPT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniquePodRPT_Tests.debug.xcconfig"; path = "Target Support Files/Pods-uniquePodRPT_Tests/Pods-uniquePodRPT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9998AA5DF84B05C98DD55E3C /* Pods-uniquePodRPT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniquePodRPT_Tests.release.xcconfig"; path = "Target Support Files/Pods-uniquePodRPT_Tests/Pods-uniquePodRPT_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF914707B0469D4B8109BF6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F8BB5ADADA8C88B073332AF5 /* uniquePodRPT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = uniquePodRPT.podspec; path = ../uniquePodRPT.podspec; sourceTree = "<group>"; };
+		CF914707B0469D4B8109BF6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8BB5ADADA8C88B073332AF5 /* uniquePodRPT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = uniquePodRPT.podspec; path = ../uniquePodRPT.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				828CF741A608BF4F3FF9AD7A /* Pods-uniquePodRPT_Tests.debug.xcconfig */,
 				9998AA5DF84B05C98DD55E3C /* Pods-uniquePodRPT_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 857H3VMVPD;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 857H3VMVPD;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 1C354A03ED6D13C7770C6EE4 /* Pods-uniquePodRPT_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 857H3VMVPD;
 				INFOPLIST_FILE = uniquePodRPT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 6247AC65002ADA7997182AC2 /* Pods-uniquePodRPT_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 857H3VMVPD;
 				INFOPLIST_FILE = uniquePodRPT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 828CF741A608BF4F3FF9AD7A /* Pods-uniquePodRPT_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = 857H3VMVPD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +535,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9998AA5DF84B05C98DD55E3C /* Pods-uniquePodRPT_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = 857H3VMVPD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

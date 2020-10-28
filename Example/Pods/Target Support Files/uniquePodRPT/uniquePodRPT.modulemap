@@ -1,0 +1,6 @@
+framework module uniquePodRPT {
+  umbrella header "uniquePodRPT-umbrella.h"
+
+  export *
+  module * { export * }
+}

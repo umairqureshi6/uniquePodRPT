@@ -1,0 +1,16 @@
+PODS:
+  - uniquePodRPT (0.1.0)
+
+DEPENDENCIES:
+  - uniquePodRPT (from `../`)
+
+EXTERNAL SOURCES:
+  uniquePodRPT:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  uniquePodRPT: 1cd8937c6c15db36b2ce0724ef4fbc3a5394c148
+
+PODFILE CHECKSUM: 6eb7f42849ba4fbf235b714343814b2c2c6654aa
+
+COCOAPODS: 1.8.3
