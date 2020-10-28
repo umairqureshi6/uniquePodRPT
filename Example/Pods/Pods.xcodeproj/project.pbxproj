@@ -15,7 +15,7 @@
 		A7BD2FE9087B4963AFB2C307C24C4689 /* Pods-uniquePodRPT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C493FE2786D8D88153EBF8403BC2F6AC /* Pods-uniquePodRPT_Tests-dummy.m */; };
 		B68F272E3ABE994C81FCF6DE304F3B79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BE513283868835E7BAF72C64E98856F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E6FE81FBEB26F01230CA0C6EC5C6CD97 /* uniquePodRPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36A870A49E4C21C8BD56BD273A98C /* uniquePodRPT.swift */; };
+		E6FE81FBEB26F01230CA0C6EC5C6CD97 /* uniquePodRPTclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E36A870A49E4C21C8BD56BD273A98C /* uniquePodRPTclass.swift */; };
 		FBA6FD976320EC27568593EEA99F1A47 /* uniquePodRPT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702E5C4EAF30BEF129E1338B4FC33153 /* uniquePodRPT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 		A5E765AB57E07C2A35CFEF50F6CE89AB /* Pods-uniquePodRPT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-uniquePodRPT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ACA07680C0D5B4DF40A5687A8CEA6910 /* uniquePodRPT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "uniquePodRPT-dummy.m"; sourceTree = "<group>"; };
 		AE40F18FA3E18810D009AE7B31CC13E7 /* uniquePodRPT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = uniquePodRPT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E36A870A49E4C21C8BD56BD273A98C /* uniquePodRPT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = uniquePodRPT.swift; path = uniquePodRPT/Classes/uniquePodRPT.swift; sourceTree = "<group>"; };
+		B0E36A870A49E4C21C8BD56BD273A98C /* uniquePodRPTclass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = uniquePodRPTclass.swift; path = uniquePodRPT/Classes/uniquePodRPTclass.swift; sourceTree = "<group>"; };
 		B59D7C1EBF348E7998B7C80AD93F3578 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BDDCD9C08D8BD0A183FEF88DFAB80808 /* uniquePodRPT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = uniquePodRPT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C493FE2786D8D88153EBF8403BC2F6AC /* Pods-uniquePodRPT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-uniquePodRPT_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 		DCD73EFF5B06E5F579546131169661BE /* uniquePodRPT */ = {
 			isa = PBXGroup;
 			children = (
-				B0E36A870A49E4C21C8BD56BD273A98C /* uniquePodRPT.swift */,
+				B0E36A870A49E4C21C8BD56BD273A98C /* uniquePodRPTclass.swift */,
 				209C73B4307BD158DEEE2080CC6AC42B /* Pod */,
 				37258D866085C19AD108F613FF332FB7 /* Support Files */,
 			);
@@ -372,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6FE81FBEB26F01230CA0C6EC5C6CD97 /* uniquePodRPT.swift in Sources */,
+				E6FE81FBEB26F01230CA0C6EC5C6CD97 /* uniquePodRPTclass.swift in Sources */,
 				60C69272DFDC5A8691044ABD1446F0AF /* uniquePodRPT-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

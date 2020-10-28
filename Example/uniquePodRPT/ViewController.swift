@@ -15,9 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-//        let abc  = Logger()
-//        
-//        abc.prin
+        let abc  = Logger(accessToken: "", tenantUrl: "", clientSecret: "", appId: "")
+        let fileUrl = abc.printlog()
+        print("---->",fileUrl)
+        abc.printlog2()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
