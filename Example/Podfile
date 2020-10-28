@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'uniquePodRPT_Example' do
+  pod 'uniquePodRPT', :path => '../'
+
+  target 'uniquePodRPT_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
